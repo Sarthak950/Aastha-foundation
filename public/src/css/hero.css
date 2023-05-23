@@ -1,0 +1,25 @@
+#hero{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    padding-left: 6rem;
+    padding-top: 5rem;
+}
+
+
+
+
+#hero-title{
+ 
+    font-family: BespokenSans-bold;
+    font-size: 3.5rem;
+}
+
+#hero > p {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-family: Kalam-regular;
+}

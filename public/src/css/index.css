@@ -1,4 +1,15 @@
-body{
-    min-height:100vh;
-    background-color: #f5f5f5;
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+@font-face{
+    font-family:BespokenSans-bold;
+    src: url(../../font/BespokeSans_Complete/Fonts/OTF/BespokeSans-Bold.otf);
+}
+@font-face{
+    font-family:Kalam-regular;
+    src: url(../../font/Kalam_Complete/Fonts/OTF/Kalam-Regular.otf);
 }
