@@ -1,28 +1,10 @@
 #cursor{
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
+    
+    width: 90vw;
+    height: 90vh;
     background-color: #f00;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    /* margin-top: 50%; */
-    margin-left: -50px;
-    margin-top: -50px;
-    /* margin-left: 50px; */
-    /* margin-top: 50px; */
-    animation: circle 2s infinite ease-in;
+    z-index: -100;
 }
 
-@keyframes circle{
-    0%{
-        transform: scale(1);
-    }
-    50%{
-        transform: scale(1.2);
-    }
-    100%{
-        transform: scale(1);
-    }
-}
 
