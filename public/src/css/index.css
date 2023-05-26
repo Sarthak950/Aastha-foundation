@@ -5,6 +5,25 @@
    
 }
 
+body{
+    /*this is for svg*/
+    background-image: url(../svg/nnnoise.svg);
+}
+
+#clear{
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;;
+    background: rgba(255, 255, 255, 0);
+    /* border-radius: 16px; */
+    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(31.5px);
+    -webkit-backdrop-filter: blur(31.5px);
+}
+
 @font-face{
     font-family:BespokenSans-bold;
     src: url(../../font/BespokeSans_Complete/Fonts/OTF/BespokeSans-Bold.otf);
