@@ -42,7 +42,4 @@ canvas {
 }
 
 
-/* for the noise gradient */
-body{
-    background-image: url("../../src/svg/nnnoise.svg");
-}
+
