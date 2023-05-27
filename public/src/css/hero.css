@@ -7,7 +7,7 @@
     padding-left: 6rem;
     padding-top: 5rem;
     overflow-x: hidden;
-      text-shadow: -1px 1px 0 #fff, 1px 1px 0 #fff, 1px -1px 0 #fff,
+    text-shadow: -1px 1px 0 #fff, 1px 1px 0 #fff, 1px -1px 0 #fff,
     -1px -1px 0 #fff;
 }
 
@@ -15,13 +15,13 @@
 
 
 #hero-title{
- 
+
     font-family: BespokenSans-bold;
-    font-size: 3.5rem;
+    font-size: 4.5rem;
 }
 
 #hero > p {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
     font-family: Kalam-regular;
