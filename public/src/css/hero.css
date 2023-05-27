@@ -6,7 +6,7 @@
     justify-content: center;
     padding-left: 6rem;
     padding-top: 5rem;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
     text-shadow: -1px 1px 0 #fff, 1px 1px 0 #fff, 1px -1px 0 #fff,
     -1px -1px 0 #fff;
 }

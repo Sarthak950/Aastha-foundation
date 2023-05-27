@@ -4,15 +4,21 @@
 }
 body,
 html {
-    overflow: hidden;
+    overflow-x: hidden;
 }
 canvas {
     position: absolute;
     top: 0;
     left: 0;
     /* clip-path: polygon(0 0, 100% 0%, 22% 100%, 0% 100%); */
-    clip-path: polygon(0 0, 100% 0%, 100% 100%, 69% 100%);
-    clip-path: polygon(64% 0, 100% 0, 100% 100%, 0 100%);    
+    /* clip-path: polygon(0 0, 100% 0%, 100% 100%, 69% 100%); */
+    /* clip-path: polygon(64% 0, 100% 0, 100% 100%, 0 100%);     */
+
+
+
+    -webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+
     z-index: -10;
 }
 .hero-container {

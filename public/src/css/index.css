@@ -1,3 +1,6 @@
+:root{
+    --nav-text-white: #F0F0F0;
+}
 
 *{
     margin: 0;
@@ -5,6 +8,9 @@
    
 }
 
+body{
+    position:relative;
+}
 
 
 #clear{
